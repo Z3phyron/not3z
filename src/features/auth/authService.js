@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = "api/auth";
-const UPDATE_API_URL = "api/user/";
+const API_URL = "https://not3z.herokuapp.com/api/auth";
+const UPDATE_API_URL = "https://not3z.herokuapp.com/api/user/";
 
 // Register user
 const signUp = async (userData) => {

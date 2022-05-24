@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "api/note/";
+const API_URL = "https://not3z.herokuapp.com/api/note/";
 
 // Create new post
 const addNote = async (noteText, token) => {
